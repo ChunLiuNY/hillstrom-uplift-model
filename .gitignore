@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Copyrighted reference papers (kept local only)
+Reference/
+
+# Project instructions for Claude (not part of the deliverable)
+CLAUDE.md
