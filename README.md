@@ -2,7 +2,7 @@
 
 A retrospective diagnostic of a real email marketing RCT. The question is not "did the
 campaign work" — a difference in means answers that. The question is whether the campaign's
-*heterogeneity* contains a transferable pattern: something about who the email moves that
+heterogeneity contains a transferable pattern: something about who the email moves that
 would let the next campaign be targeted rather than blanket.
 
 **Headline finding:** the heterogeneity is real, statistically detectable, and interpretable —
