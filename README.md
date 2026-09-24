@@ -41,7 +41,7 @@ The main analysis collapses the two email arms into a single `treatment = 1` ("a
 n = 42,694) against `treatment = 0` ("no email", n = 21,306). This deliberately trades away the
 "which creative for whom" question in order to answer the "whether to send at all" question
 cleanly with roughly twice the treated sample. Section 3 argues that this trade may have been
-the wrong side of the coin — see *What this analysis gave up*.
+the wrong side of the coin — see What this analysis gave up.
 
 ### Outcome: `visit`, not `conversion`
 
