@@ -65,11 +65,11 @@ you want is a real constraint in marketing analytics, and it is stated here rath
 
 ### What this analysis is (and is not)
 
-It is **not** an attempt to ship a model artifact. It **is** a retrospective diagnostic. Given a campaign that has already been sent, it asks:
+It is not an attempt to ship a model artifact. It is a retrospective diagnostic. Given a campaign that has already been sent, it asks:
 
 1. Did the randomization actually hold, so that everything downstream is trustworthy?
 2. Is there heterogeneity in who the email moved — and is it a *pattern*, or noise?
-3. Does an uplift model separate **persuadables** (visit *because* of the email) from
+3. Does an uplift model separate persuadables (visit *because* of the email) from
    **sure things** (would have visited anyway) well enough to change a targeting decision —
    and is that separation worth money?
 
