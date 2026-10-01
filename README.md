@@ -2,8 +2,7 @@
 
 A retrospective diagnostic of a real email marketing RCT. The campaign has already run, the
 goal is to evaluate the email at the **customer
-level** - who did this particular send actually move? - and determine whether that pattern is
-transferable enough to guide targeting for future campaigns of the same kind.
+level**. Who did this particular send actually move? Is there any transferable pattern to guide targeting for future campaigns of the same kind?
 
 **Headline finding:** the heterogeneity is real, statistically detectable, and interpretable —
 women's-merchandise buyers respond nearly twice as strongly as everyone else. But it does not
