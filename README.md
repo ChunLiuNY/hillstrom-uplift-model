@@ -8,8 +8,7 @@ level**. Who did this particular send actually move? Is there any transferable p
 women's-merchandise buyers respond nearly twice as strongly as everyone else. But it does not
 translate into money. The model
 finds no customer the email hurts, so there is nobody to suppress, and at a near-zero cost per
-send the profit-maximizing action remains "email everyone." **The value delivered
-here is diagnostic, not financial - ** a lens on who the brand actually moves.
+send the profit-maximizing action remains "email everyone."
 
 ---
 
