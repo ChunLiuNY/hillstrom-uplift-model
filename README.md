@@ -47,8 +47,7 @@ difference to be measurable rather than noise:
 - **`visit`** has a 10.62% control base rate, less noisy.
 
 The tradeoff: `visit` is the furthest of the three from revenue, so it
-is the weakest business proxy of the set. Step 6 bridges that gap by attaching an explicit
-dollar value per visit.
+is the weakest business proxy of the set.
 
 ### From business question to testable questions
 
@@ -57,6 +56,8 @@ dollar value per visit.
 3. Does an uplift model separate **persuadables** (visit because of the email) from
    **sure things** (would have visited anyway) well enough to change a targeting decision —
    and is that separation worth money?
+4. Does the email hurt anyone — a **sleeping dogs** segment with negative uplift that should
+   be suppressed regardless of budget?
 
 ---
 
@@ -176,10 +177,10 @@ Below are the two disagreement groups:
 | Excludes zero | **No** | **Yes** |
 
 
-The customers uplift **drops** are high-value, recent, heavy-spending
+The customers uplift drops are high-value, recent, heavy-spending
 Rural Web buyers who were going to visit anyway — the textbook "sure thing" profile — and their
 measured incremental effect is not statistically distinguishable from zero. The customers uplift
-**adds** are uniformly women's-merchandise buyers with half the spend history, reached by phone,
+adds are uniformly women's-merchandise buyers with half the spend history, reached by phone,
 in urban zips, and their incremental effect is significant. Those two confidence intervals overlap substantially. The point estimates favor the uplift ranking (5.10pp vs. 3.04pp), and only the persuadable group's interval excludes zero — but the difference between the two groups is not itself statistically significant at these sample sizes (~1,400 per group, split roughly 2:1 treated:control). This is suggestive evidence that the uplift ranking is picking up something real, consistent with the Qini result.
 
 ### Translate to money
@@ -188,12 +189,9 @@ in urban zips, and their incremental effect is significant. Those two confidence
 
 | Parameter | Value | Basis |
 |---|---|---|
-| Value per visit | **$7.16** | See note below |
+| Value per visit | **$7.16** | Derived from the `spend` column in the dataset |
 | Cost per send | **$0.00** | Marginal cost of an incremental email is operationally negligible |
 
-> **Note:** the $7.16 per-visit value is currently asserted rather than shown. The `spend`
-> column in the dataset supports deriving it directly (incremental spend per incremental
-> visit). 
 
 ![Profit curve](figures/profit_curve.png)
 
