@@ -22,7 +22,7 @@ prior twelve months, loaded via `sklift.datasets.fetch_hillstrom`.
 
 ### The Experiment
 
-Customers were randomly assigned in equal thirds to one of three arms:
+Customers were randomly assigned in equal arms to one of three arms:
 
 | Arm | n | Visit Rate (2 weeks) |
 |---|---|---|
