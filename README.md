@@ -33,8 +33,7 @@ Customers were randomly assigned in equal arms to one of three arms:
 
 ### Outcome: `visit`
 
-This analysis models `visit` — did the customer visit the website in the two weeks after the
-send?
+This analysis models `visit` — did the customer visit the website in the two weeks after the send?
 
 The dataset offers three outcomes, and the choice between them comes down to statistical power.
 Uplift is a difference between two group rates, so it needs a common enough outcome for that
