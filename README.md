@@ -226,8 +226,7 @@ customers the email drives away and did not find them — the minimum predicted 
 
 This recommendation is entirely contingent on the cost assumption, and that assumption is the
 weakest link in the analysis. So the model says "email everyone" partly because the dataset is blind to the cost that actually
-constrains real email programs. That is a limitation of the evidence, not a finding about the
-world.
+constrains real email programs. That is a limitation of the evidence, not a finding about the world.
 
 **Concrete next step:** run the profit curve as a sensitivity analysis across a range of
 cost-per-send values and find the break-even point at which uplift targeting begins to beat a
